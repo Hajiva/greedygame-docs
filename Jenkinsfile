@@ -14,7 +14,7 @@ pipeline{
       }
       stage("checkout"){
         steps{
-         git branch: 'main', url: 'https://github.com/Hajiva/build.git'
+         git branch: 'main', url: 'https://github.com/Hajiva/greedygame-docs.git'
         }
       }
       stage("build"){
